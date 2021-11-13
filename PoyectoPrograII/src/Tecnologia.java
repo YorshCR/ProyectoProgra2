@@ -1,6 +1,25 @@
 import javax.swing.JOptionPane;
 
 public class Tecnologia extends Producto implements Imprimible {
+    private String fabricante;
+    private String garantia;
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setGarantia(String garantia) {
+        this.garantia = garantia;
+    }
+
+    public String getGarantia() {
+        return garantia;
+    }
+
     @Override
     public void setDescripcion(String descripcion) {
         super.setDescripcion(descripcion);
@@ -27,10 +46,10 @@ public class Tecnologia extends Producto implements Imprimible {
     }
 
     public void imprimir() {
-        JOptionPane
-                .showMessageDialog(null,
-                        "Descripcion: " + descripcion + "\nCategoria: " + categoria + "\nId: " + getId() + "\nStock: "
-                                + getStock() + "\nValor: $" + getValor(),
-                        "TECNOLOGIA", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,
+                "Descripcion: " + descripcion + "\nCategoria: " + categoria + "\nId: " + getId() + "\nFabricante: "
+                        + getFabricante() + "\nStock: " + getStock() + "\nValor: $" + getValor() + "\nGarantia: "
+                        + getGarantia(),
+                "TECNOLOGIA", JOptionPane.INFORMATION_MESSAGE);
     }
 }
