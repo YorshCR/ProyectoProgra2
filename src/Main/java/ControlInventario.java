@@ -1,6 +1,4 @@
-package Main;
-
-import java.io.*;
+package Main.java;
 
 public class ControlInventario {
     public static void main(String[] args) throws Exception {

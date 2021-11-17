@@ -1,6 +1,4 @@
-package Main;
-
-import javax.swing.JOptionPane;
+package Main.java;
 
 public class Electrodomesticos extends Tecnologia implements Imprimible {
     private String marca;
