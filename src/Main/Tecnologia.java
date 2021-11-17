@@ -1,4 +1,6 @@
-import javax.swing.JOptionPane;
+package Main;
+
+import javax.swing.*;
 
 public class Tecnologia extends Producto implements Imprimible {
     private String fabricante;

@@ -1,3 +1,5 @@
+package Main;
+
 public abstract class Producto {
     protected String descripcion;
     protected String categoria;

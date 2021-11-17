@@ -36,7 +36,7 @@ public class Electrodomesticos extends Tecnologia implements Imprimible {
     public void setId(int id) {
         super.setId(id);
     }
-
+    /*
     @Override
     public void setExistencia(int existencia) {
         super.setExistencia(existencia);
@@ -54,4 +54,6 @@ public class Electrodomesticos extends Tecnologia implements Imprimible {
                         + getGarantia(),
                 "Electrodomésticos", JOptionPane.INFORMATION_MESSAGE);
     }
+
+    */
 }
