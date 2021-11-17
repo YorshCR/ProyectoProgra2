@@ -1,4 +1,4 @@
-package Main;
+package Main.java;
 
 public abstract class Producto {
     protected String descripcion;
