@@ -1,12 +1,13 @@
 package Main.Tests;
 import Main.java.Producto;
 import Main.java.Tecnologia;
+import junit.framework.TestCase;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.*;
 
-public class TecnologiaTest {
+public class TecnologiaTest extends TestCase {
     Tecnologia tecnologia = new Tecnologia();
     String TestText = "textoDePrueba";
 
